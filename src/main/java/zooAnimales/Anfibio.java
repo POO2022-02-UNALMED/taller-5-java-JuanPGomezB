@@ -43,7 +43,7 @@ public class Anfibio extends Animal{
 	}
 	
 	public static Anfibio crearSalamandra(String nombre, int edad, String genero) {
-		ranas++;
+		salamandras++;
 		
 		boolean venenoso = false;
 		String ColorPiel = "negro y amarillo";
