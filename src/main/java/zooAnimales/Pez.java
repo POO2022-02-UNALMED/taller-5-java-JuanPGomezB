@@ -57,11 +57,11 @@ public class Pez extends Animal{
 		return bacalao;
 	}
 	
-	public String getcolorEscamas() {
+	public String getColorEscamas() {
 		return colorEscamas;
 	}
 	
-	public void setcolorEscamas(String colorEscamas) {
+	public void setColorEscamas(String colorEscamas) {
 		this.colorEscamas = colorEscamas;
 	}
 	

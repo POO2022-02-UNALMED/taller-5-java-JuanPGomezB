@@ -5,12 +5,12 @@ public class Anfibio extends Animal{
 	private static ArrayList<Anfibio>listado = new ArrayList<>();
 	public static int ranas;
 	public static int salamandras;
-	private String colorPiel;
+	private String ColorPiel;
 	private boolean venenoso;
 	
-	public Anfibio(String nombre, int edad, String habitat, String genero, String colorPiel, boolean venenoso){
+	public Anfibio(String nombre, int edad, String habitat, String genero, String ColorPiel, boolean venenoso){
 		super(nombre, edad, habitat, genero);
-		this.colorPiel = colorPiel;
+		this.ColorPiel = ColorPiel;
 		this.venenoso = venenoso;
 		listado.add(this);
 		setTotalAnfibios(1);
@@ -34,10 +34,10 @@ public class Anfibio extends Animal{
 		ranas++;
 		
 		boolean venenoso = true;
-		String colorPiel = "rojo";
+		String ColorPiel = "rojo";
 		String habitat = "selva";
 		
-		Anfibio rana = new Anfibio(nombre, edad, habitat, genero, colorPiel, venenoso);
+		Anfibio rana = new Anfibio(nombre, edad, habitat, genero, ColorPiel, venenoso);
 		listado.add(rana);
 		return rana;
 	}
@@ -46,20 +46,20 @@ public class Anfibio extends Animal{
 		ranas++;
 		
 		boolean venenoso = false;
-		String colorPiel = "negro y amarillo";
+		String ColorPiel = "negro y amarillo";
 		String habitat = "selva";
 		
-		Anfibio salamandra = new Anfibio(nombre, edad, habitat, genero, colorPiel, venenoso);
+		Anfibio salamandra = new Anfibio(nombre, edad, habitat, genero, ColorPiel, venenoso);
 		listado.add(salamandra);
 		return salamandra;
 	}
 	
-	public String getcolorPiel() {
-		return colorPiel;
+	public String getColorPiel() {
+		return ColorPiel;
 	}
 	
-	public void setcolorPiel(String colorPiel) {
-		this.colorPiel = colorPiel;
+	public void setColorPiel(String ColorPiel) {
+		this.ColorPiel = ColorPiel;
 	}
 	
 	public boolean getvenenoso() {
