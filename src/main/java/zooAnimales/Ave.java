@@ -59,5 +59,4 @@ public class Ave extends Animal{
 		this.ColorPlumas = ColorPlumas;
 	}
 	
-	
 }
