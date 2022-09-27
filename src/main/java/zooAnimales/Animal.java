@@ -36,7 +36,7 @@ public class Animal {
 				"Aves: " + getTotalAves()+"\n" +
 				"Reptiles: " + getTotalReptiles()+"\n" +
 				"Peces: " + getTotalPeces()+"\n" +
-				"Anfibios: " + getTotalAnfibios()+"\n";
+				"Anfibios: " + getTotalAnfibios();
 		
 	}
 	@Override
